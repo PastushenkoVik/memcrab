@@ -23,13 +23,13 @@ const MatrixItem = ({
   };
 
   const onClickMatrixItem = (id) => {
-    const incementItemAmount = (item) => (
+    const incrementItemAmount = (item) => (
       item.ID === id
         ? { ...item, Amount: item.Amount + 1 }
         : item
     );
 
-    store.dispatch(setMatrix(matrix.map(incementItemAmount)));
+    store.dispatch(setMatrix(matrix.map(incrementItemAmount)));
   };
 
   const onMouseEnterHandler = () => {
