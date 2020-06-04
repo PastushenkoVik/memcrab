@@ -1,0 +1,9 @@
+@import '../../style/variables.scss';
+
+.matrix__row-sum {
+  color: green;
+  margin-left: $margin-padding;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}

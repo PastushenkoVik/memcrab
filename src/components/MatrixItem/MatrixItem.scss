@@ -1,0 +1,23 @@
+.matrix {
+  &__item {
+    background-image: linear-gradient(to right, orange 0% 0%, lemonchiffon 0% 100%);
+    
+    &:hover {
+      cursor: pointer;
+    }
+
+    &:focus {
+      outline:0;
+    }
+
+    &_higlight {
+      font-weight: bold;
+      color: blue;
+    }
+
+    &__button-text {
+      color: gray;
+      mix-blend-mode: difference;
+    }
+  }
+}
